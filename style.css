@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* head section start*/
+header{
+    width: 100%;
+    display: flex;
+    height: 100px;
+}
+header .color1{
+    color:crimson;
+}
+header ul{
+    font-size: 25px;
+    display: flex;
+  justify-content: space-around;
+  list-style: none; 
+  position: absolute; 
+  right: 250px;
+  top: 45px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header ul li{
+    padding: 7px;
+    transition: all 0.2s linear;
+}
+header ul li:hover{
+    color: rgb(238, 38, 78); 
+   transform: scale(1.05);
+   cursor: pointer;
+}
+header, h1{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding:17px 30px;
+}
+header .sr{
+ height:35px ;
+ width: 150px;
+ position: fixed;
+ right:30px;
+ top: 50px;
+ outline: none;
+ border:none;
+ border-radius: 20px;
+ padding-left: 40px;
+ box-shadow: 8px 8px 8px rgb(210, 214, 214,0.45),
+ -8px -8px 8px rgb(210, 214, 214,0.3);
+ font-size: 16px;
+}
+header .fa-solid{
+    position:fixed;
+    right: 150px;
+    top: 59px;
+}
+.intro{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+.intro .icon{
+    margin-top: 65px;
+    margin-left:20px;
+    padding: 15px;
+    font-size: 30px;
+    height: 280px;
+    width: 60px;
+    border-radius: 60px;
+    box-shadow: 8px 8px 8px  rgb(210, 214, 214),
+    -8px -8px 8px  rgb(210, 214, 214)
+    ;
+    position: fixed;
+}
+.intro .icon .fa-facebook-f:hover{
+  color:blue;
+  cursor: pointer;
+}
+.intro .icon .fa-youtube:hover{
+  color: red;
+  cursor: pointer;
+}
+.intro .icon .fa-twitter:hover{
+   color: skyblue;
+   cursor: pointer;
+}
+.intro .icon .fa-instagram:hover{
+   color: crimson;
+   cursor: pointer;
+}
+.intro .img{
+  position: relative;
+  left: 200px;
+}
+.intro .details .nm1{
+    position: relative;
+    left: 400px;
+    top: 150px;
+    font-size: 40px;
+}
+.intro .details .nm1 .color{
+    color: red;
+}
+.intro .details button{
+    background-color: rgb(238, 38, 78);
+    color: white;
+    position: absolute;
+    right: 200px;
+    top: 405px;
+    padding: 14px 18px;
+    border:none ;
+    border-radius: 30px;
+    box-shadow: 7px 7px 7px  rgb(210, 214, 214,0.8),
+    -7px -7px 7px  rgb(210, 214, 214,0.8);
+    transition: all 0.5s linear;
+}
+.intro .details button:hover{
+    cursor: pointer;
+    transform: scale(1.12);
+
+}
+/* head section end*/
+/* bag section start*/
+.bg-t{
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 25px;
+}
+.bg-c{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 150px;
+    height: 800px;
+    box-shadow: 10px 10px 10px rgb(21, 20, 20,0.2),
+    -10px -10px 10px rgb(21, 20, 20,0.2);
+}
+
+.bg-c .bg-m{
+    display: flex;
+    justify-content: space-around;
+}
+.bg-c .bg-w{
+    display: flex;
+    justify-content: space-around;
+} 
+.bg-m .nm{
+    text-align: center;
+}
+.bg-w .nm{
+    text-align: center;
+}
+.bg-c .bg-m .bg:hover{
+    box-shadow: 7px 7px 7px rgb(21, 20, 20,0.1),
+    -7px -7px 7px rgb(21, 20, 20,0.1);
+    cursor: pointer;
+}
+.bg-c .bg-w .bg:hover{
+    box-shadow: 7px 7px 7px rgb(21, 20, 20,0.1),
+    -7px -7px 7px rgb(21, 20, 20,0.1);
+    cursor: pointer;
+ }
+ .bg-c .bg-w{
+    margin-top: 20px;
+    margin-bottom: 15px;
+ }
+ /* bag section end*/
+ /* watch section start*/
+ 
+  .watch-coll{
+   margin-top:100px;
+    height: 850px;
+    width: 1210px;
+    box-shadow: 10px 10px 10px rgb(21, 20, 20,0.2),
+    -10px -10px 10px rgb(21, 20, 20,0.2);
+  }
+  .watch-coll .w-t{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: center; 
+    padding: 20px;
+  }
+  .watch-coll .watch-m{
+    display: flex;
+    justify-content: space-around;
+    height: 310px;
+
+  }
+  .watch-coll .watch-m .nm-m{
+    text-align: center;
+  }
+  .watch-coll .watch-m .m:hover{
+   box-shadow: 7px 7px 7px  rgb(21, 20, 20,0.1)
+   ,  -7px -7px 7px  rgb(21, 20, 20,0.1) ;
+    padding-bottom: 15px;
+    cursor: pointer;
+  }
+  .watch-coll .watch-w{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .watch-coll .watch-w .nm-w{
+    text-align: center;
+  }
+  .watch-coll .watch-w .w:hover{
+    box-shadow: 7px 7px 7px  rgb(21, 20, 20,0.1)
+    ,  -7px -7px 7px  rgb(21, 20, 20,0.1) ;
+     padding-bottom: 15px;
+     cursor: pointer;
+   }
+  /* watch section end*/
+  /* about section start*/
+  .about{
+    display: flex;
+    box-shadow: 10px 10px 10px rgb(21, 20, 20,0.2),
+    -10px -10px 10px rgb(21, 20, 20,0.2);
+    margin-top:60px ;
+    height: 360px;
+  }
+  .about .txt{
+    text-align: center;
+  }
+  .about h3{
+    color: crimson;
+  }
+  .about p{
+    color: purple;
+  }
+  .about .pic img{
+    width: 550px;
+    margin-left: 127px;
+  }
+    /* about section start*/
+    /* contact section start */
+    .cont{
+      display: flex;
+      justify-content: space-around;
+      box-shadow: 10px 10px 10px rgb(21, 20, 20,0.2),
+      -10px -10px 10px rgb(21, 20, 20,0.2);
+      margin-top: 50px;
+      text-align: center;
+      background-color:lightgray;
+      color:black;
+      
+    }
+    .cont .loc h4{
+      text-align: center;
+      margin-top: 10px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 30px;
+    }
+    .cont .loc iframe{
+      margin-top: 20px;
+      width: 450px;
+      height: 450px;
+    }
+    .cont .form h2{
+      text-align: center;
+      margin-top: 10px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size:30px ;
+    }
+    .cont .form h3{
+      margin-top: 20px;
+      font-size: 25px;
+      margin-right: 200px;
+    } 
+    .cont .form .head{
+      margin-right: 280px;
+    }
+    .cont .form .email{
+      position: relative;
+      top: -10px;
+      height: 30px;
+      width: 350px;
+      outline: none;
+      padding: 10px;
+      border-radius: 20px;
+      border: none;
+    }
+  .cont .form .email:focus{
+    box-shadow: 4px 4px 4px gray;
+  }
+    .cont .form .box{
+      position: relative;
+      top: -13px;
+      outline: none;
+      border-radius: 20px;
+      padding: 10px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 15px;
+     border: none;
+    }
+    .cont .form .box:focus{
+      box-shadow: 4px 4px 4px gray;
+    }
+    .cont .form .btn input{
+      outline: none;
+      border: none;
+      padding: 15px 20px;
+      font-size: 14px;
+      border-radius: 20px;
+    }
+
+    .cont .form .btn input:hover{
+      color: white;
+      background-color: gray;
+      border: none;
+      box-shadow: 5px 5px 5px rgb(40, 36, 36,0.2),
+      -5px -5px 5px rgb(40, 36, 36,0.2);
+      cursor: pointer;
+    }
+
+    .cont .form .btn .btn1{
+      margin-right: 30px;
+      height: 50px;
+      width: 80px;
+    }
+    .cont .form .btn .btn2{
+      height: 50px;
+      width: 80px;
+    }
+    .cont .connect .more{
+      font-size: 30px;
+      position: relative;
+      right: 15px;
+      top: 10px;
+      text-decoration: underline;
+    }
+    .connect i{
+      font-size: 40px;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .connect .fa-facebook{
+    color: rgb(38, 38, 214);
+    }
+    .connect .fa-facebook:hover{
+      color:rgb(128, 128, 205);
+      }
+    .connect .fa-whatsapp{
+      color:rgb(50, 218, 24);
+      }
+      .connect .fa-whatsapp:hover{
+        color:rgb(50, 218, 24,0.5);
+        }
+      .connect .fa-github{
+        color:black;
+        }
+        .connect .fa-github:hover{
+          color:rgb(12, 12, 12,0.5);
+          }
+        .connect .fa-linkedin{
+          color:rgb(32, 5, 208);
+          }
+          .connect .fa-linkedin:hover{
+            color:rgb(32, 5, 208,0.5);
+            }
+          .connect .fa-threads{
+            color:black;
+            }
+            .connect .fa-threads:hover{
+              color:rgb(0, 0, 0,0.5)
+              }
+
+    /* contact section end*/ 
+ /* footer section start*/
+ .foot {
+   background-color: black;
+   position: relative;
+   left: -100px;
+   margin-top: 50px;
+   width: 1349px;
+   height: 100px;
+   color: white;
+   text-align: center;
+   font-size: 22px;
+   padding-top: 18px;
+ }
+/* footer section end*/
